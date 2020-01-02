@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+}
+#nav-header{
+    color: white;
+    text-align: center;
+}
+.fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+}
+#nav-header .title h1{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+#nav-header #search-icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#nav-header .search-form{
+    display: none;
+}
+#nav-header #search-form{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 4px;
+    text-align: left;
+    background-color: rgba(36,41,44,0.9);
+    height: 40%;
+    z-index: 1;
+    padding-top: 3rem;
+}
+#search-form .close-search-box{
+    margin-bottom: 1.2rem;
+    margin-top: -1.4rem;
+    text-align: right;
+    padding: 0 1.4rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+#nav-header #search-box{
+    color: grey;
+    font-size: 1rem;
+    padding: .8rem;
+    width: 100%;
+    position: absolute;
+    outline: none;
+    left: 0;
+    border: none;
+}
+.title-searchbox{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 24, 31);
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.hide-mobile{
+    display: none;
+}
+nav ul{
+    position: fixed;
+    width: 60%;
+    top: 0;
+    left: 0;
+    text-align: left;
+    background-color: rgba(36,41,44,0.9);
+    height: 100%;
+    z-index: 1;
+    padding-top: 3rem;
+}
+nav a{
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: rgb(52, 59, 63);
+}
+nav a:hover{
+    background-color: rgb(69, 76, 80);;
+}
+.exit-btn{
+    margin-bottom: 1.2rem;
+    margin-top: -1.4rem;
+    text-align: right;
+    padding: 0 1.4rem;
+}
+.exit-btn .fa-times{
+    font-size: 2rem;
+    cursor: pointer;
+}
+@media (min-width: 775px){
+    body{
+        background-color: hotpink;
+    }
+}
